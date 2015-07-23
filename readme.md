@@ -6,3 +6,10 @@ Kullanilacak Teknolojiler
 - CSS
 - Javascript
 -- jQuery
+
+Proje Gelistiricileri:
+
+- Gorkem Ozge Akilevi
+- Gozde Ozturk
+- Rukiye Acikgoz
+- Elis Mercan
