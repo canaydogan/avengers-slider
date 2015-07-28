@@ -94,7 +94,6 @@
 	float: left;
 	height: 100%;
 	width: 200px;
-	
 	padding-right: 4px;
 }
 .slider-pic:hover .mini-baslik{
@@ -102,24 +101,20 @@
 	color: black;
 	opacity: 0.8;
 }
-.kaydirma-oku:hover .mini-baslik{
-	background: black;
-	color: white;
-	opacity: 0.8;
-}
+
 
 .mini-baslik{
 	position: absolute;
 	left: 0px;
 	width: 198px;
-	height: 27%;
+	height: 33%;
 	margin-left: 4px;
 	padding-left: 1px;
 	opacity: 0.8;
 	background: black;
 	color: white;
-	font-size: 13px;
-	top: 150;
+	font-size: 13.5px;
+	top: 140;
 	z-index: 1;
 
 }
@@ -128,6 +123,9 @@
 	background: white;
 	color: black;
 	opacity: 0.8;
+}
+.mini-baslik h4{
+	margin: 5px 0px 0px 10px;
 }
 
 
@@ -168,7 +166,7 @@
 	position: absolute;
 	z-index: 2;
 	top: 4px;
-	left: 140px;
+	left: 752px;
 
 }
 .kaydirma-oku-iki:hover{
@@ -181,7 +179,7 @@
 	color: white;
 	position: absolute;
 	top: 75;
-	left: 165px;
+	left: 780px;
 }
 
 
