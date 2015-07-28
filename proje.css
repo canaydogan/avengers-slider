@@ -4,6 +4,7 @@
 	position: relative;
 	height: 600px;
 	width: 812px;
+	overflow: hidden;
 	
 }
 .slider-top{
@@ -16,62 +17,6 @@
 	float: left;
 	width: 530px;
 	height: 100%;
-}
-.slider-bottom{
-	position: absolute;
-	top: 400px;
-	width: 10000px;
-	height: 200px;	
-}
-.slider-bottom li img{
-	float: left;
-	height: 100%;
-	width: 200px;
-	padding-top: 4px;
-	padding-left: 4px;
-}
-
-
-.mini-baslik{
- 
-	float: left;
-	width: 198px;
-	height: 27%;
-	margin-left: 4px;
-	background: black;
-	position: absolute;
-    top:150;
-	opacity: 0.7;
-	z-index: 1;
-
-}
-.yazi{
-	float: left;
-	width: 190px;
-	height: 27%;
-	position: absolute;
-	
-	padding-left: 15;
-	top: 155;
-	color: white;
-	font-size: 14px;
-	
-	z-index: 2;
-}
-.mini-baslik:hover{
-
-	background: white;
-
-
-
-}
-.yazi:hover{
-	position: absolute;
-	opacity: 0.8;
-	background: white;
-	color: black;
-
-
 }
 
 
@@ -127,4 +72,117 @@
 .date{
 	margin-left: 7px;
 }
+
+
+.slider-bottom{
+	position: absolute;
+	left:0;
+	top: 400px;
+	width: 10000px;
+	height: 200px;	
+}
+.slider-bottom li img{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 200px;
+	padding-top: 4px;
+	padding-left: 4px;
+}
+.slider-pic{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 200px;
+	
+	padding-right: 4px;
+}
+.slider-pic:hover .mini-baslik{
+	background: white;
+	color: black;
+	opacity: 0.8;
+}
+.kaydirma-oku:hover .mini-baslik{
+	background: black;
+	color: white;
+	opacity: 0.8;
+}
+
+.mini-baslik{
+	position: absolute;
+	left: 0px;
+	width: 198px;
+	height: 27%;
+	margin-left: 4px;
+	padding-left: 1px;
+	opacity: 0.8;
+	background: black;
+	color: white;
+	font-size: 13px;
+	top: 150;
+	z-index: 1;
+
+}
+
+.mini-baslik:hover{
+	background: white;
+	color: black;
+	opacity: 0.8;
+}
+
+
+
+
+
+.kaydirma-oku{
+	width: 60px;
+	height: 200px;
+	
+	padding-left: 4px;
+	position: absolute;
+	z-index:2;
+	top: 4px;
+	left: 4px;
+}
+
+
+.kaydirma-oku:hover{
+
+	background: white;
+	opacity: 0.4;
+}
+
+.ok{
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	top: 75;
+	left: 20px;
+
+}
+.kaydirma-oku-iki{
+	width: 60px;
+	height: 200px;
+	
+	padding-right: 4px;
+	position: absolute;
+	z-index: 2;
+	top: 4px;
+	left: 140px;
+
+}
+.kaydirma-oku-iki:hover{
+
+	background: white;
+	opacity: 0.4;
+}
+.ok-iki{
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	top: 75;
+	left: 165px;
+}
+
+
 
