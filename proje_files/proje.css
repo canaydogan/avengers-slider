@@ -1,0 +1,38 @@
+*{margin: 0; padding: 0; list-style: none;}
+
+.slider-container{
+	position: relative;
+	height: 600px;
+	width: 812px;
+	overflow: hidden;
+}
+.slider-top{
+	position: absolute;
+	float: left;
+	width: 10000px;
+	height: 400px;
+}
+.slider-top li img{
+	float: left;
+	width: 532px;
+	height: 100%;
+}
+.slider-bottom{
+	position: absolute;
+	top: 400px;
+	width: 10000px;
+	height: 200px;	
+}
+.slider-bottom li img{
+	float: left;
+	height: 100%;
+	width: 200px;
+	padding-top: 4px;
+	padding-left: 4px;
+}
+.black-blok{
+	float: left;
+	width:250px;
+	height:400%;
+	background: black;
+}
